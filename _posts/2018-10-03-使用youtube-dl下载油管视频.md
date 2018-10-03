@@ -17,6 +17,9 @@ http://rg3.github.io/youtube-dl/
 
 链接: [https://pan.baidu.com/s/1pVSDNvepC1cDup0FIE_Esw](https://pan.baidu.com/s/1pVSDNvepC1cDup0FIE_Esw) 提取码: 6ixt
 
+
+
+
 将youtube-dl.exe的路径加入到PATH环境变量中
 
 > 开启cmd，输入

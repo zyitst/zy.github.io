@@ -17,6 +17,9 @@ tags: jupyter-notebook conda
 	
 	(tensorflow)H:>conda install ipykernel
 
+
+
+
 配置对应环境下的ipykernel
 
 	H:>python -m ipykernel install --user --name tensorflow(环境名称) --display-name "tensorflow(在notebook中显示的环境名称)"
