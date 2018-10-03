@@ -6,6 +6,9 @@ categories: jupyter-notebook
 tags: jupyter-notebook conda
 ---
 
+* content
+{:toc}
+
 首先激活对应的conda环境
 
     H:>activate tensorflow

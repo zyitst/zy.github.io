@@ -5,6 +5,10 @@ date:   2018-08-20 21:03:00 +0800
 categories: jupyter-notebook
 tags: 资源下载 youtube
 ---
+
+* content
+{:toc}
+
 在下面这个网址下载youtube-dl工具
 
 http://rg3.github.io/youtube-dl/
@@ -15,7 +19,7 @@ http://rg3.github.io/youtube-dl/
 
 将youtube-dl.exe的路径加入到PATH环境变量中
 
-开启cmd，输入
+> 开启cmd，输入
 
 	youtube-dl -u test123@abc.com https://www.youtube.com/playlist?list=PLfYUBJiXbdtSyktd8A_x0JNd6lxDcZE96 --playlist-start 9 --playlist-end 12
 
