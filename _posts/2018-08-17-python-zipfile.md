@@ -7,7 +7,7 @@ tags: 压缩文件 远程下载
 ---
 
 
-##使用zipfile模块
+##使用zipfile模块编写zipfile1.py脚本
 
 {% highlight python %}
 import os, zipfile
@@ -26,15 +26,15 @@ with zipfile.ZipFile('test.zip', mode='w') as zipf:
 
 ##在Coursera中上传此文件并运行
 
-[![](https://s19.postimg.cc/ridvctynn/openfile.png)](https://s19.postimg.cc/image/ridvctynn/)
+![](http://ww1.sinaimg.cn/large/e3e031dfly1fwtpfqdh3sj205u0e6776.jpg)
 
 可以看到该目录下有许多图片文件，notebook只能勾选一个下载一个，不能批量下载，所以我们把改脚本上传到此目录中
 
-[![image.png](https://s19.postimg.cc/nm0jgv8j7/image.png)](https://postimg.cc/image/3rehuqtbj/)
+![](http://ww1.sinaimg.cn/large/e3e031dfly1fwtpjlwxk1j20ys0m8783.jpg)
 
 在notebook中新建一个cell，运行下面命令：
 
-[![image.png](https://s19.postimg.cc/5vyuvuadv/image.png)](https://s19.postimg.cc/5vyuvuadv/)
+![](http://ww1.sinaimg.cn/large/e3e031dfly1fwtpkdvhysj20zk0333yq.jpg)
 
 就可以在images下生成一个test.zip文件，包括images下所有文件
 ，这样就可以只下载这个压缩文件，而不用一个一个点啦
