@@ -7,7 +7,7 @@ tags: 压缩文件 远程下载
 ---
 
 
-##使用zipfile模块编写zipfile1.py脚本
+## 使用zipfile模块编写zipfile1.py脚本
 
 {% highlight python %}
 import os, zipfile
@@ -24,7 +24,7 @@ with zipfile.ZipFile('test.zip', mode='w') as zipf:
 
 
 
-##在Coursera中上传此文件并运行
+## 在Coursera中上传此文件并运行
 
 ![](http://ww1.sinaimg.cn/large/e3e031dfly1fwtpfqdh3sj205u0e6776.jpg)
 
